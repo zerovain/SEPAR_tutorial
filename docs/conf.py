@@ -7,8 +7,9 @@ copyright = '2025'
 author = 'Zhang Lei'  
 
 extensions = [  
-    'myst_parser',  # 用于支持 Markdown  
+    'myst_parser',  
     'sphinx.ext.mathjax',  
+    'sphinx_rtd_theme',  
 ]  
 
 # 支持 markdown  
