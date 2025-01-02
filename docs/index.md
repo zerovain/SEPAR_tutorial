@@ -8,6 +8,7 @@ Tutorial1
 Tutorial2  
 Tutorial3  
 Tutorial4
+
 ```
 
 SEPAR (Spatial gene Expression PAttern Recognition) is a computational method designed for analyzing spatial transcriptomics data. This tutorial will guide you through the installation and basic usage of SEPAR.
