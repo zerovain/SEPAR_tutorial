@@ -15,6 +15,26 @@ Introduction
 
 SEPAR (Spatial gene Expression PAttern Recognition) is a computational method designed for analyzing spatial transcriptomics data. This tutorial will guide you through the installation and basic usage of SEPAR.  
 
+Main Features  
+~~~~~~~~~~~~  
+
+* Unsupervised spatial pattern recognition  
+* Pattern-specific gene identification  
+* Gene expression pattern refinement  
+* Improved spatially variable gene detection  
+* Spatial domain clustering  
+* Multi-omics Integration
+
+SEPAR Repository  
+~~~~~~~~~~~~~~  
+
+The SEPAR repository is hosted on GitHub and contains all the necessary code and documentation:  
+
+* **Repository URL**: `https://github.com/zerovain/SEPAR <https://github.com/zerovain/SEPAR>`_  
+* **Repository Structure**:  
+    * ``SEPAR_model.py``: Core implementation of the SEPAR algorithm  
+    * ``examples/``: Example notebooks and datasets 
+
 Installation  
 -----------  
 
