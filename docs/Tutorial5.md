@@ -1,4 +1,4 @@
-# Tutorial 4: multi-slice analysis (DLPFC dataset)
+# Tutorial 5: multi-slice analysis (DLPFC dataset)
 
 ## Data Availability  
 
