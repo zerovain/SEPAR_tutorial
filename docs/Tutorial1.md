@@ -14,7 +14,7 @@ This tutorial demonstrates the core functionalities of SEPAR (Spatial gene Expre
 The DLPFC dataset used in this tutorial can be accessed through multiple sources:  
 
 - **Dataset**: The processed DLPFC data is hosted in the [spatialLIBD repository](https://github.com/LieberInstitute/spatialLIBD)  
-- **Manual Annotations**: Expert-curated layer annotations are available in [supplementary data folder](https://drive.google.com/drive/folders/10lhz5VY7YfvHrtV40MwaqLmWz56U9eBP?usp=sharing)  
+- **Manual Annotations**: Expert-curated layer annotations are available in [supplementary data folder from STAGATE[1]](https://drive.google.com/drive/folders/10lhz5VY7YfvHrtV40MwaqLmWz56U9eBP?usp=sharing)  
 
 
 ```python
@@ -521,4 +521,8 @@ plt.show()
 
 
 ![png](Tutorial1_files/Tutorial1_30_0.png)
+
+## References  
+
+[1] Dong, Kangning, and Shihua Zhang. “Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder.” Nature Communications 13.1 (2022): 1-12.
 
