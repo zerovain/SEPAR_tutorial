@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 project = 'SEPAR'  
 copyright = '2025'  
-author = 'Zhang Lei'  
+author = 'ZL'  
 
 extensions = [  
     'myst_parser',  
