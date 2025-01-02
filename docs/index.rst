@@ -35,7 +35,7 @@ The SEPAR repository is hosted on GitHub and contains all the necessary code and
 * **Repository Structure**:  
     * ``SEPAR_model.py``: Core implementation of the SEPAR algorithm  
     * ``SEPARmult_model.py``: multi-slice version of the SEPAR algorithm  
-    * ``example/``: Example notebooks and datasets 
+    * ``example/``: Example notebooks
 
 Installation  
 -----------  
