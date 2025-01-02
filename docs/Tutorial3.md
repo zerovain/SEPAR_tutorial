@@ -16,7 +16,7 @@ from SEPAR_model import SEPAR
 
 # Read data  
 # adata = sc.read_h5ad(filename='osmfish_remove_excluded.h5ad')  
-filename = '/Users/zhang/Desktop/st_square/draft/osmfish/osmfish_remove_excluded.h5ad'
+filename = 'dataset/osmfish/osmfish_remove_excluded.h5ad'
 adata = sc.read_h5ad(filename)
 adata.var_names_make_unique()  
 
