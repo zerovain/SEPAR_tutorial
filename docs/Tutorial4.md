@@ -20,7 +20,7 @@ from SEPAR_model import SEPAR
 
 ```python
 # Load ATAC data  
-with h5py.File('/Users/zhang/Documents/SEPAR_upload/dataset/MISAR_seq/MISAR_seq_mouse_E15_brain_ATAC_data.h5', 'r') as f:  
+with h5py.File('dataset/MISAR_seq/MISAR_seq_mouse_E15_brain_ATAC_data.h5', 'r') as f:  
     x_atac = np.array(f['X'], dtype='float64')  
     loc = np.array(f['pos'], dtype='float64')  
     peak_names = np.array(f['peak'], dtype=str)  
@@ -28,7 +28,7 @@ with h5py.File('/Users/zhang/Documents/SEPAR_upload/dataset/MISAR_seq/MISAR_seq_
     cell_atac = np.array(f['cell'], dtype=str)  
 
 # Load RNA data  
-with h5py.File('/Users/zhang/Documents/SEPAR_upload/dataset/MISAR_seq/MISAR_seq_mouse_E15_brain_mRNA_data.h5', 'r') as f:  
+with h5py.File('dataset/MISAR_seq/MISAR_seq_mouse_E15_brain_mRNA_data.h5', 'r') as f:  
     x_rna = np.array(f['X'], dtype='float64')  
     gene_names = np.array(f['gene'], dtype=str)  
     cell_rna = np.array(f['cell'], dtype=str)  
