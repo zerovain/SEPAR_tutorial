@@ -1,4 +1,4 @@
-# SEPAR Tutorial: A Detailed Quick Start Guide (DLPFC dataset) 
+# Tutorial 1: A Detailed Quick Start Guide (DLPFC dataset) 
 
 This tutorial demonstrates the core functionalities of SEPAR (Spatial gene Expression PAttern Recognition) using the DLPFC (Dorsolateral Prefrontal Cortex) dataset. SEPAR is designed to identify spatial patterns in spatial transcriptomics data through graph-regularized matrix factorization.  
 
