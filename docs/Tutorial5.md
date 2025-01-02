@@ -15,7 +15,7 @@ SEPARmult extends the original SEPAR algorithm to handle multiple tissue section
 - Cross-section gene program analysis  
 - Integrated refinement of gene expression
 
-## 2. Data Preparation  
+## Data Preparation  
 
 First, let's import the necessary packages and load the data:  
 
