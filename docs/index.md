@@ -139,6 +139,16 @@ SEPAR generates several key outputs:
 3. Clustering results (accessible via `separ.labelres`)
 4. Pattern-specific genes (can be identified using `identify_pattern_specific_genes()`)
 
+```{toctree}  
+:maxdepth: 1  
+:caption: Contents  
+
+Tutorial1  
+Tutorial2  
+Tutorial3  
+Tutorial4
+```
+
 ## Citation
 
 If you use SEPAR in your research, please cite:
