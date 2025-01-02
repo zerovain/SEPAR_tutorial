@@ -34,7 +34,8 @@ The SEPAR repository is hosted on GitHub and contains all the necessary code and
 * **Repository URL**: `https://github.com/zerovain/SEPAR <https://github.com/zerovain/SEPAR>`_  
 * **Repository Structure**:  
     * ``SEPAR_model.py``: Core implementation of the SEPAR algorithm  
-    * ``examples/``: Example notebooks and datasets 
+    * ``SEPARmult_model.py``: multi-slice version of the SEPAR algorithm  
+    * ``example/``: Example notebooks and datasets 
 
 Installation  
 -----------  
