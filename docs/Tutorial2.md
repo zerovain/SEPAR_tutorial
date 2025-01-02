@@ -22,7 +22,7 @@ from SEPAR_model import SEPAR
 
 ```python
 import os
-filepath = '/Users/zhang/globus/Dataset1_LiuLongQi_MouseOlfactoryBulb'
+filepath = 'dataset/Stereo/Dataset1_LiuLongQi_MouseOlfactoryBulb'
 counts_file = os.path.join(filepath, 'RNAcounts.h5ad')
 coor_file = os.path.join(filepath, 'position.tsv')
 # Load spatial coordinates  
@@ -40,7 +40,7 @@ adata.obsm["spatial"] = coor_df.to_numpy()[:,[1,0]]
 # Quality control  
 sc.pp.calculate_qc_metrics(adata, inplace=True)  
 
-used_barcode = pd.read_csv('/Users/zhang/globus/Dataset1_LiuLongQi_MouseOlfactoryBulb/used_barcodes.txt',sep='\t', header=None)
+used_barcode = pd.read_csv('dataset/Stereo/Dataset1_LiuLongQi_MouseOlfactoryBulb/used_barcodes.txt',sep='\t', header=None)
 used_barcode = used_barcode[0]
 adata = adata[used_barcode,]
 # Initialize SEPAR  
