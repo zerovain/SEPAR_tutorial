@@ -1,5 +1,15 @@
 # SEPAR Tutorial
 
+```{toctree}  
+:maxdepth: 1  
+:caption: Contents  
+
+Tutorial1  
+Tutorial2  
+Tutorial3  
+Tutorial4
+```
+
 SEPAR (Spatial gene Expression PAttern Recognition) is a computational method designed for analyzing spatial transcriptomics data. This tutorial will guide you through the installation and basic usage of SEPAR.
 
 ## Installation
@@ -138,16 +148,6 @@ SEPAR generates several key outputs:
 2. Gene loadings (accessible via `separ.Hpn`)
 3. Clustering results (accessible via `separ.labelres`)
 4. Pattern-specific genes (can be identified using `identify_pattern_specific_genes()`)
-
-```{toctree}  
-:maxdepth: 1  
-:caption: Contents  
-
-Tutorial1  
-Tutorial2  
-Tutorial3  
-Tutorial4
-```
 
 ## Citation
 
