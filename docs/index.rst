@@ -10,6 +10,7 @@ SEPAR Tutorial
    Tutorial3  
    Tutorial4
    Tutorial5
+   Tutorial6
 
 Introduction  
 -----------  
