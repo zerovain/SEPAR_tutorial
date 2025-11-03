@@ -194,12 +194,12 @@ num_patterns = 30
 plt.figure(dpi=200, figsize=(24, 6))
 for i in range(30):
     ii = sim_argsort[i]
-    plt.subplot(3, np.int(num_patterns/3), i + 1)
+    plt.subplot(3, np.int32(num_patterns/3), i + 1)
     plt.scatter(separ.loc[:, 0], -separ.loc[:, 1], 
                 c=separ.Wpn[:, ii].reshape(-1, 1), 
                 s=0.1, cmap='Reds')
     plt.axis('off')
-    plt.title(f'Pattern {i + 1}: {np.int(separ.genes_per_pattern[ii])} genes', 
+    plt.title(f'Pattern {i + 1}: {np.int32(separ.genes_per_pattern[ii])} genes', 
               fontsize=12)
 plt.tight_layout()
 plt.show()
