@@ -57,11 +57,12 @@ Before installing SEPAR, ensure you have Python 3.7 or later installed. SEPAR re
    scikit-learn>=1.2.0  
    tqdm>=4.64.1  
    seaborn>=0.13.2
+   scikit-misc>=0.2.0
 
    # Optional dependency
    # cupy>=10.6.0
 
-Setting Up the Environment  
+Setting Up the Environment (3 minites)
 ~~~~~~~~~~~~~~~~~~~~~~~~~  
 
 1. We recommend using conda to create a new environment:  
@@ -76,9 +77,9 @@ Setting Up the Environment
 .. code-block:: bash  
 
    conda install pandas numpy scipy matplotlib scikit-learn tqdm seaborn 
-   conda install -c conda-forge scanpy anndata  
+   conda install -c conda-forge scanpy anndata scikit-misc 
 
-Installing SEPAR  
+Installing SEPAR (1 minute)
 ~~~~~~~~~~~~~~~  
 
 Clone the SEPAR repository from GitHub:  
