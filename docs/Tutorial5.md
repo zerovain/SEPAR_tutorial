@@ -150,7 +150,7 @@ for j, adata in enumerate(separ.adata_list):
     plt.figure(dpi=80, figsize=(20, 7))  
     for i in range(30):  
         ii = sim_argsort[i]  
-        plt.subplot(3, np.int(num_patterns/3), i + 1)  
+        plt.subplot(3, np.int32(num_patterns/3), i + 1)  
         
         # Get indices for current section  
         batch_indices = separ.adata_concat.obs['batch_name'] == batch_name  
