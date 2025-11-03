@@ -186,7 +186,7 @@ num_patterns = 30
 plt.figure(dpi=200, figsize=(24, 7))
 for i in range(30):
     ii = sim_argsort[i]
-    plt.subplot(3, np.int(num_patterns/3), i + 1)
+    plt.subplot(3, np.int32(num_patterns/3), i + 1)
     plt.scatter(separ.loc[:, 0], -separ.loc[:, 1], 
                 c=separ.Wpn[:, ii].reshape(-1, 1), 
                 s=1.2, cmap='Reds')
