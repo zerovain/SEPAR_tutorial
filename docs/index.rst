@@ -200,7 +200,10 @@ If you use SEPAR in your research, please cite:
 
 .. code-block:: text  
 
-   [Citation information will be added upon publication]  
+   Zhang, L., Zhu, Y. & Zhang, S. SEPAR enables spatial metagene discovery
+   and associated molecular pattern characterization in spatial transcriptomics
+   and multi-omics datasets. Commun Biol 9, 77 (2026).
+   https://doi.org/10.1038/s42003-025-09340-w
 
 Support  
 -------  
